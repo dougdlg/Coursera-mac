@@ -10,17 +10,15 @@
 
 // })(window);
 
-(function (window) {
+(function () {
   var helloSpeaker ={};
-  helloSpeaker.name = {};
   var speakWord = "Hello";
-  helloSpeaker.speak = function () {
-    console.log("Hello " + helloSpeaker.name);
+  helloSpeaker.speak = function (name) {
+    console.log(speakWord + " " + name);
   }
-
 window.helloSpeaker = helloSpeaker;
 
-})(window);
+})();
 
 
 

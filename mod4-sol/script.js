@@ -59,12 +59,9 @@ for (var i = 0; i < names.length; i++) {
   if (firstLetter === 'j') {
     names.bye = names[i]
     byeSpeaker.speak(names[i]);
-    console.log(byeSpeaker.speak);
   } else {
     helloSpeaker.speak(names[i]);
-    console.log(helloSpeaker.speak)
   }
 }
-
 })();
 

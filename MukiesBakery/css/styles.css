@@ -1,0 +1,14 @@
+#logo {
+    height: 120px;
+    width: 120px;
+}
+#myNavbar {
+    align-content:center;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid rgb(110, 57, 57);
+  }
